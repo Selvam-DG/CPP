@@ -22,10 +22,23 @@
 - The linker combines object files into an executable file. Besides the self-generated object files, it also contains the startup-code and the modules with the used functions and classes of the standard library.
 
 
+#### main function 
+- The main function (main program) is where a program starts its execution. After processing all statements within the curly brackets, the program is terminated.
+
+  ------------------------------------------------------------------------------------------------------------------------------------------------
+- The curly brackets in the program are noticeable.  The brackets are used to mark the beginnings and the ends of code blocks of loops, functions, if statements, and so on
+- In C++, whitespace characters are simply ignored
+              int main() 
+              { 
+              cout << "Hello World!"; 
+              } 
+              equals 
+              int main(){cout<<"Hello World!";} 
 
 
-
-
+-  system("pause");
+  -  It is used to make the screen or console wait for a key press. After the keyboard input, the console window closes.
+- The system("cls"); command fully deletes the screen output. The cursor is then located at the top left at the beginning of the command line. 
 
 
 
