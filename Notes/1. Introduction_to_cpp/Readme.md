@@ -30,12 +30,12 @@
 - In C++, whitespace characters are simply ignored
 
 
-              int main() 
-              { 
-              cout << "Hello World!"; 
-              } 
-              equals 
-              int main(){cout<<"Hello World!";} 
+    int main() 
+    { 
+    cout << "Hello World!"; 
+    } 
+        equals to  
+    int main(){cout<<"Hello World!";} 
 
 
 -  system("pause");
