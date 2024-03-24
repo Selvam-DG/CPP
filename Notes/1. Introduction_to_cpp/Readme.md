@@ -28,6 +28,8 @@
   ------------------------------------------------------------------------------------------------------------------------------------------------
 - The curly brackets in the program are noticeable.  The brackets are used to mark the beginnings and the ends of code blocks of loops, functions, if statements, and so on
 - In C++, whitespace characters are simply ignored
+
+
               int main() 
               { 
               cout << "Hello World!"; 
