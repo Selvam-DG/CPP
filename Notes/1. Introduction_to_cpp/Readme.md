@@ -40,7 +40,26 @@
 
 -  system("pause");
   -  It is used to make the screen or console wait for a key press. After the keyboard input, the console window closes.
+
+
 - The system("cls"); command fully deletes the screen output. The cursor is then located at the top left at the beginning of the command line. 
+
+
+##### Basic program
+        #include <iostream>        // Includes iostream header file
+        #include <cstdlib>    // Includes cstdlib header file 
+        using namespace std;  // Namespace
+        
+        
+        int main()   // Namespace 
+        {                // Beginning of the program 
+        
+          cout<<"Alfardo"<<endl; 
+          cout<<"Am Stadtplatz 1"<<endl;  
+          cout<<endl;    
+          cout<<"83024 Rosenheim "<<endl; 
+          system("pause");   
+        }                    // End of the program  
 
 
 
