@@ -1,4 +1,16 @@
+## get multiple words from input console
+```cpp
+#include <iostream>
+using namespace std;
+int main() {
+    string para;
+    cout << "Enter your text" <<endl;
+    getline(cin, para);  // getline used to get the complete line until press Enter
+    cout << para;
+    return 0;
+}
 
+```
 ## Iterators
 ```cpp
 #include <iostream>
