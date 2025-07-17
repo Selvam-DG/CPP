@@ -1,5 +1,5 @@
-## class Intro
-
+# C++ Class and Constructors
+## Class Example: `Circle`
 ```cpp
 #include <iostream>
 #include<bits/stdc++.h>
@@ -39,14 +39,16 @@ int main(){
 ```
 ## Access Specifier in Class
 - `private` by default while creating methods, attributes
-  - access method, attributes inside the class
+  - Members declared inside a class without any access specifier are private. These members can only be accessed within the class.
 - `public`
-  - can access methods, attribute anywhere in the code
+  - Members declared as public can be accessed from outside the class.
 - `'protected`
+  - Members declared as protected can be accessed in the class itself and by derived classes.
 
 
 
 ## Scope resolution operator
+- Used to define a class member function outside the class definition.
 ```cpp
 #include <iostream>
 #include<bits/stdc++.h>
@@ -87,15 +89,18 @@ int main(){
 }
 ```
 
-## Constructor
-- It is a special MEMBER_FUNCTION having same name of its class which is used initialize some valid values to the data members of an objects
-- It executes automatically when an object of a class is created.
+## Constructors
+A constructor is a special member function used to initialize objects.
+- Same name as the class
+- Automatically invoked when an object is created
+
+### Types of Constructors
 - Types:
   - Default Constructor
   - Parameterizd Constructor
   - Copy Constructor
  
-### Default constructor
+#### 1. Default constructor
 ```cpp
 #include <iostream>
 #include<bits/stdc++.h>
@@ -122,7 +127,7 @@ int main(){
     
 }
 ```
-### Parameterized constructor
+#### 2. Parameterized constructor
 ```cpp
 #include <iostream>
 #include<bits/stdc++.h>
@@ -148,7 +153,8 @@ int main(){
     return 0;
 }
 ```
-### Copy Constructor
+
+#### 3. Copy Constructor
 ```cpp
 #include <iostream>
 #include<bits/stdc++.h>
@@ -185,10 +191,12 @@ int main(){
 
 ```
 ## Constructor overloading
-- All 3 types of constructors (default, parameterized, copy) are declared inside class
+- Multiple constructors (default, parameterized, and copy) can be defined in a single class with different signatures.
 ## Destructor
-- An instance member function which is invoked automatically whenver an object is going to destory.
-- `~`with Class
+A destructor is a special member function that is invoked automatically when an object is destroyed.
+- Has the same name as the class, preceded by a tilde (~)
+- No return type and no parameters
+
 ```cpp
 class Maths{
 public:
